@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Game Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="img/auris.png" alt="" class="img" />
+      <header>
+        <div class="puntaje">
+          <img src="img/puntos.png" alt="" />
+          <span class="puntos" id="puntos">0</span>
+        </div>
+        <h1>QUIZ</h1>
+        <div class="jugador">
+          <span class="nombre" id="nombre">Jose</span>
+          <img src="img/user.png" alt="" />
+        </div>
+      </header>
+
+      <!-- SECCIÓN MENU DEL JUEGO -->
+      <main class="menu">
+        <h2>Hi <span id="nombre-jugador">Jose</span></h2>
+        <p>Choose a category..</p>
+        <div class="categorias">
+          <div class="categoria" id="application-software">
+            <img src="img/app-software.png" alt="" class="foto-categoria" />
+            <h3>Application Software</h3>
+          </div>
+          <div class="categoria" id="system-software">
+            <img src="img/system.png" alt="" class="foto-categoria" />
+            <h3>System Software</h3>
+          </div>
+          <div class="categoria" id="jobs-in-tech">
+            <img src="img/jobs.png" alt="" class="foto-categoria" />
+            <h3>Jobs in Tech</h3>
+          </div>
+          <div class="categoria" id="programming-language">
+            <img src="img/languages.png" alt="" class="foto-categoria" />
+            <h3>Programming language</h3>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="js/menu.js"></script>
+  </body>
+</html>
